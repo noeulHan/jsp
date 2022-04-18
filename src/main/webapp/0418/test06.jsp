@@ -3,17 +3,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>test05.jsp(test05.html)</title>
+    <title>>test06.jsp</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
 <p><br/><p>
 <div class="container">
+	<h2>test06.jsp</h2>
 	<h2>JSP From Tag 연습(GET방식)</h2>
-	<form name="myForm" method="get" action="test05Ok.jsp">
+	<form name="myForm" method="get" action="test06Ok.jsp">
 	 <p>아이디 : <input type="text" name="mid" autofocus/></p>
-	 <p>비밀번호 : <input type="password" name="src/main/webapp/0418/test05_2.jsppwd"></p>
+	 <p>비밀번호 : <input type="password" name="pwd"></p>
 	 <p>
 	 	<input type="submit" value="전송"/>
 	 	<input type="reset" value="다시입력"/>
