@@ -16,7 +16,7 @@
 	 <p>비밀번호 : <input type="password" name="pwd"></p>
 	 <p>
 	 	<input type="submit" value="전송"/>
-	 	<input type="reset" value="다시 입력"/>
+	 	<input type="reset" value="다시입력"/>
 	 </p>
 	</form>
 </div>
