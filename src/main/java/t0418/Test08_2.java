@@ -18,12 +18,14 @@ public class Test08_2 extends HttpServlet {
 		
 		String mid = request.getParameter("mid");
 		String pwd = request.getParameter("pwd");
+		String name = request.getParameter("name");
 		
 		PrintWriter out = response.getWriter();
 		
 		out.println("<p>이곳은 test08_2.java 파일 입니다.</p>");
 		out.println("<p>아이디: "+mid+"<br/></p>"); 
 		out.println("<p>비밀번호: "+pwd+"<br/></p>");
+		out.println("<p>성명: "+name+"<br/></p>");
 		/* out.println("<a href='/javagreenJ/0418/test08.jsp'>돌아가기</a>"); */
 		out.println("<p><a href='"+request.getContextPath()+"/0418/test08.jsp'>돌아가기</a></p>");
 	}

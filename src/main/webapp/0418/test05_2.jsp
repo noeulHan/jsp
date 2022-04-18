@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-<p><br/><p>
+<p><br/><p> 
 <div class="container">
 	<h2>JSP From Tag 연습(POST방식)</h2>
 	<form name="myForm" method="post" action="test05Ok.jsp">

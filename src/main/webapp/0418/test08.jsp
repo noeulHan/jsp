@@ -12,10 +12,11 @@
 <div class="container">
 	<h2>test08.jsp</h2>
 	<h2>JSP From Tag 연습(POST방식)</h2>
-	<!-- <form name="myForm" method="post" action="test08Ok.jsp"> -->
-	<form name="myForm" method="post" action="../T8">
+	<form name="myForm" method="post" action="test08Ok.jsp">
+	<!-- <form name="myForm" method="post" action="../T8"> -->
 	 <p>아이디 : <input type="text" name="mid" autofocus/></p>
 	 <p>비밀번호 : <input type="password" name="pwd"></p>
+	 <p>성명: <input type="text" name="name"></p>
 	 <p>
 	 	<input type="submit" value="전송"/>
 	 	<input type="reset" value="다시입력"/>
