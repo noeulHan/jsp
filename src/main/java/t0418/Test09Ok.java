@@ -9,21 +9,24 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-//@WebServlet("/T08")
-public class Test08 extends HttpServlet {
+import org.apache.catalina.startup.ClassLoaderFactory.Repository;
 
+//@WebServlet("/T09")
+public class Test09Ok extends HttpServlet {
+	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.setCharacterEncoding("UTF-8");
-		response.setContentType("text/html; charset=UTF-8");
-	
+		request.setCharacterEncoding("utf-8");
+		response.setContentType("text/html; charset=utf-8");
+		
 		String mid = request.getParameter("mid");
 		String pwd = request.getParameter("pwd");
+		String name = request.getParameter("name");
 		
 		PrintWriter out = response.getWriter();
 		
-		out.println("아이디: "+mid+"<br/>"); 
-		out.println("비밀번호: "+pwd+"<br/>");
-		out.println("<a href='/javagreenJ/0418/test08.jsp'>돌아가기</a>");
-		
+		out.println("<br/>아이디 : " + mid);
+		out.println("<br/>비밀번호 : " + pwd);
+		out.println("<br/>성명 : " + name);
+		out.println("<br/><a href='"+request.getContextPath()+"/0418/test09.jsp'>돌아가기</a>");
 	}
 }
